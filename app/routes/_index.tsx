@@ -32,7 +32,7 @@ export default function Index() {
       <h1 className="text-3xl text-center pt-[10px] pb-[15px] font-bold">
         リロードするたびレッサーパンダが更新されるよ⭐️
       </h1>
-      <div className="columns-2 gap-[1px] md:columns-4 md:gap-[5px]">
+      <ul className="columns-2 gap-[1px] md:columns-4 md:gap-[5px]">
         {images.map((url: string, index: number) => (
           <div
             key={index}
@@ -45,7 +45,7 @@ export default function Index() {
             />
           </div>
         ))}
-      </div>
+      </ul>
     </div>
   );
 }
