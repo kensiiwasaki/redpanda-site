@@ -39,7 +39,11 @@ export default function Index() {
             key={index}
             className="break-avoid text-white p-[2px] md:p-1 rounded"
           >
-            <img src={url} alt="Red Panda" className="w-full h-auto rounded" />
+            <img
+              src={url}
+              alt="レッサーパンダ"
+              className="w-full h-auto rounded"
+            />
           </div>
         ))}
       </div>
