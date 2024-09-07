@@ -38,11 +38,13 @@ export default function Index() {
             key={index}
             className="break-avoid text-white p-[2px] md:p-1 rounded"
           >
-            <img
-              src={url}
-              alt="レッサーパンダ"
-              className="w-full h-auto rounded"
-            />
+            <a href={url}>
+              <img
+                src={url}
+                alt="レッサーパンダ"
+                className="w-full h-auto rounded"
+              />
+            </a>
           </li>
         ))}
       </ul>
