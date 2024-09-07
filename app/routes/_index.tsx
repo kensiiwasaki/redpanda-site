@@ -34,7 +34,7 @@ export default function Index() {
       </h1>
       <ul className="columns-2 gap-[1px] md:columns-4 md:gap-[5px]">
         {images.map((url: string, index: number) => (
-          <div
+          <li
             key={index}
             className="break-avoid text-white p-[2px] md:p-1 rounded"
           >
@@ -43,7 +43,7 @@ export default function Index() {
               alt="レッサーパンダ"
               className="w-full h-auto rounded"
             />
-          </div>
+          </li>
         ))}
       </ul>
     </div>
