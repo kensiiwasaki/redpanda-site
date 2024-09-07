@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 
 export const loader: LoaderFunction = async () => {
   const fetchImages = async () => {
-    const promises = Array.from({ length: 25 }, async () => {
+    const promises = Array.from({ length: 20 }, async () => {
       const response = await fetch(
         "https://api.tinyfox.dev/img.json?animal=wah"
       );
