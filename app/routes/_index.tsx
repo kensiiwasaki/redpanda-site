@@ -33,7 +33,7 @@ export default function Index() {
       <h1 className="text-3xl text-center pt-[10px] pb-[15px] font-bold">
         リロードするたびレッサーパンダが更新されるよ⭐️
       </h1>
-      <div className="container-breakinside columns-4 gap-[5px]">
+      <div className="columns-4 gap-[5px]">
         {images.map((url: string, index: number) => (
           <div key={index} className="break-avoid text-white p-2 rounded">
             <img src={url} alt="Red Panda" className="w-full h-auto rounded" />
