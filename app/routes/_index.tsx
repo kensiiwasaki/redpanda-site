@@ -5,6 +5,21 @@ export const meta: MetaFunction = () => {
   return [
     { title: "Red Panda Site" },
     { name: "description", content: "Welcome to Red-Panda Site!" },
+    { property: "og:title", content: "Red Panda Site" },
+    {
+      property: "og:description",
+      content: "Welcome to the Red Panda Site!",
+    },
+    { property: "og:image", content: "/redpanda.jpeg" },
+    { property: "og:url", content: "https://example.com" },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Red Panda Site" },
+    {
+      name: "twitter:description",
+      content: "Welcome to the Red Panda Site!",
+    },
+    { name: "twitter:image", content: "/redpanda.jpeg" },
   ];
 };
 
