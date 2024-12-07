@@ -48,9 +48,9 @@ export default function Index() {
         リロードするたびレッサーパンダが更新されるよ⭐️
       </h1>
       <ul className="columns-2 gap-[1px] md:columns-4 md:gap-[5px]">
-        {images.map((url: string, index: number) => (
+        {images.map((url: string) => (
           <li
-            key={index}
+            key={url}
             className="break-avoid text-white p-[2px] md:p-1 rounded"
           >
             <a href={url}>
