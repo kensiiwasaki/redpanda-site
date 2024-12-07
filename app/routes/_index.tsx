@@ -30,7 +30,7 @@ export const loader: LoaderFunction = async () => {
         "https://api.tinyfox.dev/img.json?animal=wah"
       );
       const data = await response.json();
-      return `https://tinyfox.dev${data.loc}`;
+      return `https://api.tinyfox.dev${data.loc}`;
     });
     return Promise.all(promises);
   };
